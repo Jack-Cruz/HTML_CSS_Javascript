@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: aquamarine;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    height: 30px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .navbar-icon {
+    border:  1px solid black;
+    color: black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -60px;
+}
+
+/* END HEADER */
+
+/* MAIN CONTENT */
+#high-text {
+    height: 1000px;
+    background-color: violet;
+}
+
+#chicken-text {
+    text-align: center;
+}
+/* END MAIN CONTENT */
+
+/**  Medium devices only **/
+@media (min-width: 992px) {
+
+}
+
+/** Small devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/** Extra small devices only **/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p {
+        font-size: .6em;
+    }
+    #collapsable-nav {
+        background-color: skyblue;
+    }
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    /* End Header */
+}

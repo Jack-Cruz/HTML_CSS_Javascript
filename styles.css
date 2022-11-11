@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: aquamarine;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 { /* Company name LLC*/
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #221;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#collapsable-nav {
+    background-color: skyblue;
+    text-align: center;
+}
+
+#nav-list li {
+    height: 15px;
+}
+#nav-list a {
+    padding: 0;
+    margin: auto;
+}
+#nav-list hr {
+    margin: 5px 0px;
+}
+/* END HEADER */
+
+/* BODY */
+/* #main-content {
+    margin: 0 15px;
+    background-color: greenyellow;
+}
+#tall-content {
+    height: 1000px;
+} */
+/* END BODY */
