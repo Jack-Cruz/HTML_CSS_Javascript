@@ -15,14 +15,15 @@
 
 // console.log("Stock price is: " + company[stockPropName]);
 
+
 // Better way: 
 var company = {
-    name: "Facebook",
+    name: "Tesla",
     ceo: {
-        firstName: "Mark",
-        favColor: "blue"
+        firstName: "Elon",
+        favColor: "Red"
     },
-    "stock of company": 110
+    "stock of company": 200
 };
-
-console.log(company.ceo.firstName);
+console.log("Company CEO name is: " + company.ceo.firstName);
+console.log("Stock price is: " + company["stock of company"]);

@@ -1,6 +1,6 @@
 // Functions are First-Class Data Types
 // Functions ARE objects
-function multiply(x, y) {
+function multiply(x, y){
     return x * y;
 }
 multiply.version = "v1.0.0";
@@ -16,16 +16,18 @@ function makeMultiplier(multiplier) {
 }
 
 var multiplyBy3 = makeMultiplier(3);
-console.log(multiplyBy3(10));
+console.log("multiplyBy3: ", multiplyBy3(10));
 var multiplyBy2 = makeMultiplier(2);
-console.log(multiplyBy2(199));
+console.log("multiplyBy2: ", multiplyBy2(199));
 
 // Passing functions as arguments
 function doOperationOn(x, operation) {
   return operation(x);
 }
 
-var result = doOperationOn(5, multiplyBy3);
-console.log(result);
+var result = doOperationOn(5, (multiplyBy3));
+console.log("1st result: ", result);
 result = doOperationOn(100, multiplyBy2);
-console.log(result);
+console.log("2nd result: ", result);
+result = doOperationOn(9, (x) => x**2);
+console.log("3rd result: ", result);

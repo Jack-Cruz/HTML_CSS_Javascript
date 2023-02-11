@@ -23,7 +23,7 @@
 //     }
 // }
 
-// Ubobstrusive event binding
+// Unobstrusive event binding
 // document.querySelector("button")
 // .addEventListener("click", sayHello);
 
@@ -57,6 +57,8 @@ document.addEventListener("DOMContentLoaded",
         // Ubobstrusive event binding
         document.querySelector("button")
         .addEventListener("click", sayHello);
+
+        console.log("hello world!");
 
     }
 );

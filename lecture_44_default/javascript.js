@@ -6,3 +6,13 @@ function orderChickenWith(sideDish) {
 
 orderChickenWith("noodles");
 orderChickenWith();
+
+
+function ordernarPolloCon(agregado){
+    agregado = agregado || "Arroz";
+    console.log("Pollo con " + agregado);
+}
+
+ordernarPolloCon("frijoles");
+ordernarPolloCon("ensalada");
+ordernarPolloCon();

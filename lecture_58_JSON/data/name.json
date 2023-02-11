@@ -1,6 +1,7 @@
 {
     "firstName": "Jack",
     "lastName": "Cruz",
-    "likesChineseFood": true,
-    "numberOfDisplays": 2
+    "likesChineseFood": false,
+    "numberOfDisplays": -1,
+    "listenMusicWhileWorking": true
 }

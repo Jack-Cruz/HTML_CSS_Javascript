@@ -1,15 +1,15 @@
 // Should be undefined
-var x;
-console.log(x);
+var y;
+console.log(y);
 
-if (x == undefined) {
-    console.log("x is undefined");
+if(y == undefined){
+    console.log("y is undefined");
 }
 
-x = 5;
-if (x == undefined) {
-    console.log("x is undefined");
+y = 20;
+if(y == undefined){
+    console.log("y is undefined");
 }
 else {
-    console.log("x has been defined");
+    console.log("y has been defined");
 }

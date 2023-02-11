@@ -1,4 +1,4 @@
-// Copy by value
+// // Copy by value
 // var a = 7;
 // var b = a;
 // console.log("a: " + a);
@@ -10,7 +10,7 @@
 // console.log("b: " + b);
 
 
-// Copy value by reference
+// // Copy value by reference
 // var a = { x: 7};
 // var b = a;
 // console.log(a);
@@ -23,7 +23,7 @@
 
 
 
-// Pass by value
+// // Pass by value
 // function changePrimitive(primValue) {
 //   console.log("in changePrimitive...");
 //   console.log("before:");
@@ -36,7 +36,7 @@
 
 // var value = 7;
 // changePrimitive(value); // primValue = value
-// console.log("after changePrimitive, orig value:");
+// console.log("after changePrimitive() function, orig value:");
 // console.log(value);
 
 

@@ -1,4 +1,4 @@
-// Arrays
+// // Arrays
 // var array = new Array();
 // array[0] = "Jack";
 // array[1] = 2;
@@ -12,7 +12,7 @@
 // console.log(array[3].course);
 
 
-// Short hand array creation
+// // Short hand array creation
 // var names = ["Yack", "Jhon", "Joe"];
 // console.log(names);
 
@@ -26,27 +26,27 @@
 // }
 
 
+// Like a dictionary
+var myObj = {
+  name: "Jack",
+  course: "HTML/CSS/JS",
+  plataform: "Coursera"
+};
 
-// var myObj = {
-//   name: "Jack",
-//   course: "HTML/CSS/JS",
-//   plataform: "Coursera"
-// };
-
-// for (var prop in myObj) {
-//   console.log(prop + ": " + myObj[prop]);
-// }
+for (var prop in myObj) {
+  console.log(prop + ": " + myObj[prop]);
+}
 
 var names2 = ["Jack", "Jhon", "Joe"];
     
-for (var name in names2) {
-  console.log("Hello " + names2[name]);
+for (var idx in names2) {
+  console.log("Hello " + names2[idx]);
 }
 
 names2.greeting = "Hi!";
 
-for(var name in names2){
-  console.log("Hello " + names2[name]);
+for(var idx in names2){
+  console.log("Hello " + names2[idx]);
 }
 
 
